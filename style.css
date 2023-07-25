@@ -3,13 +3,34 @@ body {
     background-color: black;
     color: white;
 }
-
-h1 {
-    background-color: rgb(87, 87, 201);
-    color: yellow;
+.introduction{
+    text-align: left;
+}
+img{
+    text-align: center;
+    border: 5px solid rgb(73, 100, 189);
+    border-width: 3px;
+    padding: 3px;
+    margin: 3px;
 }
 #starters_image_div{
-    border: 10px solid blue;
+    text-align: center;
+}
+h1 {
+    background-color: rgb(73, 100, 189);
+    color: rgb(255, 208, 0);
+    text-align: center;
+}
+h2 {
+    font-family: monospace;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.all_pokemon_container{
+    font-family:monospace;
+    font-weight: 900;
+    font-size:large;
 }
 #bulbasaur_container{
     border: 1px solid rgb(255, 252, 96);
@@ -17,6 +38,7 @@ h1 {
     background-color: rgb(131, 184, 96);
     margin: 0px;
     padding: 15px;
+    border: none
 }
 #charmander_container{
     border: 1px solid rgb(255, 252, 96);
@@ -33,7 +55,9 @@ h1 {
 
 .list {
     text-align: left;
-    font-size: small;
+    font-family: monospace;
+    font-size: medium;
+    font-weight: bolder;
 }
 .pokemon_names{
 text-align: left;
@@ -43,6 +67,11 @@ text-align: left;
 }
 .each_pokemon_container{
     padding-top: 50px;
+}
+.pokemon_images{
+    height: 200px;
+    width: 200px;
+    border: none
 }
 footer {
     text-align: left;
